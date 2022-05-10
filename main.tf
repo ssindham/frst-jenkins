@@ -14,7 +14,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "ec2-instance" {
-  ami           = "ami-0f9fc25dd2506cf6d" #us-east-1
+  ami           = "ami-0022f774911c1d690" #us-east-1
   instance_type = "t2.micro"
   tags = {
     "Name" = var.ec2-instance-name
